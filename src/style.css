@@ -99,3 +99,25 @@ header,
 .carousel-indicators .active {
   background-color: #65daf9;
 }
+
+/* Sobre */
+#about-area {
+  background-color: #f9f9f9;
+}
+
+.main-title {
+  color: #444;
+  margin: 0 0 65px 0;
+  font-size: 40px;
+  text-align: center;
+}
+
+.main-title::after {
+  content: '';
+  position: absolute;
+  background-color: #333;
+  width: 15%;
+  height: 2px;
+  left: 42.5%;
+  top: 109%;
+}
